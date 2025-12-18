@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 { margin: 10px 0; }
+    .product p { color: #777; }
+    .product span { color: #ff5fa2; font-weight: bold; }
+    </style>
+    <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <!-- 12 Products -->
+      <div class="product"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9cp1QpszUEgKtdEt5M-8-ttxMacMwZGfGw&s"><h3>Lipstick</h3><p>Matte Finish</p><span>₹799</span></div>
+      <div class="product"><img src="https://m.media-amazon.com/images/I/61U6jqZ+oCL._SL1500_.jpg"><h3>Foundation</h3><p>Full Coverage</p><span>₹1299</span></div>
+      <div class="product"><img src= https://byuticart.in/cdn/shop/files/zivha_pure_Anti-aging_skincare.png?v=1749057988><h3>Face Serum</h3><p>Vitamin C</p><span>₹999</span></div>
+      <div class="product"><img src="https://images.mamaearth.in/catalog/product/g/e/gel-face-moisturizer.jpg?format=auto&height=600&width=600"><h3>Moisturizer</h3><p>24h Hydration</p><span>₹699</span></div>
+      <div class="product"><img src="https://images-static.nykaa.com/media/catalog/product/c/7/c7343718903380005370_8.jpg?tr=w-500"><h3>Compact powder</h3><p>Natural Glow</p><span>₹499</span></div>
+      <div class="product"><img src="https://images.pexels.com/photos/965731/pexels-photo-965731.jpeg?cs=srgb&dl=pexels-valeriya-965731.jpg&fm=jpg"><h3>Perfume</h3><p>Floral</p><span>₹1599</span></div>
+      <div class="product"><img src="https://www.hourglasscosmetics.com/cdn/shop/files/2000x2000_72dpi_0004_2025_FALL_CURATOR_EYESHADOW_QUADS_RETAIL_ASSET_PACK_LINKSELL_COLLECTION_HERO.jpg?v=1754510729&width=480"><h3>Eye Shadow</h3><p>12 Shades</p><span>₹1099</span></div>
+      <div class="product"><img src="https://www.dotandkey.com/cdn/shop/articles/image_13_fda4e525-3f04-462e-8237-59658cc9f56e.png?v=1739257227&width=1100"><h3>Face Wash</h3><p>Gentle Clean</p><span>₹399</span></div>
+      <div class="product"><img src="https://www.sunjalink.com/cdn/shop/files/dr-loretta-sunscreen-urban-antioxidant-sunscreen-spf-40-dr-loretta-urban-antioxidant-sunscreen-spf40-sunja-link-body-shoppe-sunja-link-canada-30001579229258.png?v=1698456574&width=2048"><h3>Sunscreen</h3><p>SPF 50</p><span>₹599</span></div>
+      <div class="product"><img src="https://m.media-amazon.com/images/I/71ws3kDS2UL._AC_UF1000,1000_QL80_.jpg"><h3>Blush</h3><p>Peach Glow</p><span>₹549</span></div>
+      <div class="product"><img src="https://www.beautyberry.co.in/cdn/shop/files/01.png?v=1765359344&width=1445"><h3>Mascara</h3><p>curling</p><span>₹699</span></div>
+      <div class="product"><img src="https://funlacquer.com/cdn/shop/products/fun-cosmetics-nail-polish-287-naked-1_1dfff2d9-ca79-4677-ba88-7408805ee1fa_800x.jpg?v=1583410747"><h3>Nail Paint</h3><p>Glossy</p><span>₹299</span></div>
+      <div class="product"><img src="https://trendingbeauty.in/wp-content/uploads/2025/01/1.1.jpg"<h3>lip gloss</h3><p>shining</p><span>₹299</span></div>
+       <div class="product"><img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/272f72a4-d7b7-40c2-8142-98bfa3be61a2.__CR0,0,600,450_PT0_SX600_V1___.jpg"<h3>tint</h3><p>glossy</p><span>₹599</span></div>
+       <div class="product"><img src="https://www.jiomart.com/images/product/original/rvbuig881j/masking-beauty-facial-sheet-mask-natural-sheet-mask-face-sheet-mask-for-women-men-combo-pack-of-10-200ml-g-product-images-orvbuig881j-p594108718-7-202209270017.jpg?im=Resize=(420,420)"<h3>face mask</h3><p>brightning</p><span>₹199</span></div>
+    </div>
+  </section>
+</body>
+</html>
